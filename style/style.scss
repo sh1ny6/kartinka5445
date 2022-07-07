@@ -104,15 +104,48 @@ h1,h2,h3,p{
     align-items: flex-start;
 }
 .butta{
-}
-.button1{
     max-width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: "MontserratBold";
     font-size: 22px;
-    padding: 10px 60px;
+    padding: 20px 100px;
     background-color: #FF352B;
     color: white;
+    border: 2px white solid;
+}
+.button1{
+
+}
+.header-bottom__text{
+    color: #333333;
+    font-family: "MontserratRegular";
+    font-size: 18px;
+    margin-left: 60px;
+    max-width: 150px;
+}
+.header-bottom__ul{
+    margin-top: 90px;
+    display: flex;
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.h2{
+    font-family: "MontserratBold";
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.numbers{
+    font-family: "MontserratRegular";
+    font-size: 50px;
+}
+.main-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

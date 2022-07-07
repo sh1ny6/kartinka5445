@@ -142,7 +142,7 @@ h1, h2, h3, p {
           align-items: flex-start;
 }
 
-.button1 {
+.butta {
   max-width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -155,8 +155,56 @@ h1, h2, h3, p {
           justify-content: center;
   font-family: "MontserratBold";
   font-size: 22px;
-  padding: 10px 60px;
+  padding: 20px 100px;
   background-color: #FF352B;
   color: white;
+  border: 2px white solid;
+}
+
+.header-bottom__text {
+  color: #333333;
+  font-family: "MontserratRegular";
+  font-size: 18px;
+  margin-left: 60px;
+  max-width: 150px;
+}
+
+.header-bottom__ul {
+  margin-top: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.h2 {
+  font-family: "MontserratBold";
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.numbers {
+  font-family: "MontserratRegular";
+  font-size: 50px;
+}
+
+.main-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 /*# sourceMappingURL=style.css.map */
